@@ -3,17 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
-
+import{CarouselBarComponent} from './carousel-bar/carousel-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderNavComponent
+    HeaderNavComponent,
+    CarouselBarComponent
   ],
   imports: [
-    BrowserModule,
-    MDBBootstrapModule.forRoot()
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
