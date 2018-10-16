@@ -3,11 +3,11 @@ body {
 }
 
 .sider-navbar {
-    width: 200px;
+    width: 270px;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #212529;
+    background-color: #343a40;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -22,10 +22,6 @@ body {
 
 .sider-navbar a:hover {
     color: #9e9999;
-}
-
-.main-panel {
-    margin-left: 200px; /* Same as the width of the sidenav */
 }
 
 .social {
@@ -96,4 +92,14 @@ body {
     background: #3f7aa3;
     bottom: 0;
     left: 75%;
+}
+
+.bg-info,.btn-info {
+    background-color: #343a40!important;
+}
+.text-info{
+    color: #343a40!important;
+}
+.border-primary{
+    border-color: #343a40!important;
 }
